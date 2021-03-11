@@ -1,17 +1,14 @@
-var nam=5;
-console.log(nam);
-var suma=5+nam;
-var suma2;
-console.log(suma);
-console.log(suma2);
-var bar =null;
-console.log(bar);
-var bol=true;
-console.log(bol);
+function Person() {
+this.name1='Yastreb';
+return 'fill';
+}
 
-/*let age = prompt('Сколько тебе лет?', 100);
 
-alert(`Тебе ${age} лет!`); // Тебе 100 лет!*/
+var name1= Person();
+var name2= new Person();
+
 console.log('------------------');
-console.log(bol);
+console.log(name1);
+console.log('------------------');
+console.log(name2);
 
